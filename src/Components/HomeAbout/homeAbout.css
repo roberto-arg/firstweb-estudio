@@ -1,0 +1,415 @@
+.homeAbout {
+    min-height: 100vh;
+    background: url(../../Img/backgroundInfo.png);
+    padding-top: 1rem;    background-position: center;
+    background-size: cover;
+    padding-top: 5rem;
+}
+
+.aboutWelcome {
+    background: url(../../Img/backgroundAbout.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    border-radius: 5px;
+}
+
+.descriptionAbout {
+    background: rgba(255, 255, 255, 0.045);
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    box-shadow: 2px 2px 10px #625555;
+    margin: 1rem;
+}
+
+.aboutWelcome H2 {
+    font-size: 50px;
+    text-shadow: 1px 1px 5px #625555;
+    color: rgb(59, 50, 40);
+    text-align: center;
+}
+
+
+.descriptionAbout P {
+    font-size: 25px;
+    text-shadow: 1px 1px 5px #ffffff;
+    color: rgb(59, 50, 40);
+    text-align: center;
+    padding: - 0.5rem;
+    font-weight: 500;
+}
+
+/* ------------------------------- */
+
+.aboutUs {
+    background: rgba(255, 255, 255, 0.045); /*#625555 #ab530196 */
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    box-shadow: 2px 2px 10px #625555;
+    margin: 1rem;
+    height: 35vh;
+}
+
+.aboutUs h2 {
+    font-size: 50px;
+    text-shadow: 1px 1px 5px #625555;
+    color: rgb(59, 50, 40);
+    text-align: center;
+}
+
+.aboutUs p {
+    font-size: 25px;
+    text-shadow: 1px 1px 5px #625555;
+    color: rgb(59, 50, 40);
+    text-align: center;
+    padding: .5rem;
+    font-weight: 500;
+}
+
+/* ------------------------------- */
+
+.aboutUsTeam {
+    background: rgba(255, 255, 255, 0.045); /*#625555 #ab530196 */
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    box-shadow: 2px 2px 10px #625555;
+    margin: 1rem;
+}
+
+/* ------------------------------- */
+
+.aboutContact {
+    background: rgba(255, 255, 255, 0.045); /*#625555 #ab530196 */
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    box-shadow: 2px 2px 10px #625555;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutTitle h3{
+    font-size: 50px;
+    text-shadow: 1px 1px 5px #625555;
+    color: rgb(59, 50, 40);
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.aboutLeft {
+    width: 40vw;
+    text-align: justify;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutRight {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutRight img {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.aboutLeft p {
+    font-size: 23px;
+    text-shadow: 1px 1px 5px #625555;
+}
+
+.aboutLeft a {
+    text-decoration: none;
+    font-size: 30px;
+    border: 1px solid #0436ea7e;  /*  #ab530180 */
+    background-color: #0436ea7e;  /*  #ab530180 */
+    border-radius: 3px;
+    color: white;
+    box-shadow: 1px 1px 10px #625555;
+    width: 50%;
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+}
+
+.aboutText P {
+    font-size: 25px;
+    text-shadow: 1px 1px 5px #625555;
+    color: rgb(59, 50, 40);
+    text-align: center;
+    padding: .5rem;
+    font-weight: 500;
+}
+
+.aboutLeft a:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: #0436ea7e;  /*  #ab530180 */
+    transition: all ease .3s;
+    box-shadow: 1px 1px 10px #625555;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.homeAbout .separator {
+    border-top: 5px solid #0436ea7e;  /*  #ab530180 */
+}
+
+/* ------------------------------- */
+
+@media (max-width: 1440px) {
+
+    .homeAbout {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .aboutTitle h3 {
+        font-size: 55px;
+    }
+
+    .aboutLeft p {
+        font-size: 28px;
+    }
+
+    .aboutLeft a {
+        width: 60%;
+        height: 3rem;
+        font-size: 35px;
+    }
+
+    .separator {
+        border-top: 5px solid #ab530180;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    .homeAbout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+
+    .descriptionAbout p {
+        color: rgb(3, 3, 3);
+        text-shadow: 0px 0px 20px white;
+        line-height: 33px;
+    }
+
+    .aboutUs {
+        height: 45vh;
+    }
+
+    .aboutUs h2 {
+        font-size: 55px;
+    }
+
+    .aboutUs p {
+        color: rgb(3, 3, 3);
+        text-shadow: 0px 0px 20px white;
+        line-height: 40px;
+        font-size: 26px;
+    }
+
+    .aboutTitle h3 {
+        font-size: 55px;
+    }
+
+    .aboutLeft p {
+        line-height: 33px;
+    }
+
+    .aboutLeft a {
+        width: 100%;
+        height: 45px;
+    }
+
+    .aboutRight img {
+        object-fit: contain;
+        height: 300px;
+    }
+    
+    .separator {
+        border-top: 5px solid #ab530180;
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) { 
+    .aboutWelcome {
+        height: 100vh;
+    }
+
+    .descriptionAbout p{
+        font-size: 30px;
+        font-weight: 600;
+        text-shadow: 0px 0px 10px white;
+        line-height: 43px;
+        color: rgb(16, 16, 15);
+    }
+
+    .aboutUs {
+        display: none;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .aboutTitle h3 {
+        font-size: 60px;
+    }
+
+    .aboutLeft {
+        text-align: center;
+    }
+
+    .aboutLeft p {
+        display: none;
+    }
+
+    .aboutLeft a {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .aboutRight img {
+        margin-bottom: 1rem;
+    }
+
+    .separator {
+        border-top: 5px solid #ab530180;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .aboutWelcome {
+        display: none;
+    }
+
+    .aboutWelcome p {
+        display: none;
+    }
+
+    .homeAbout {
+        min-height: 100vh;
+        background: url(../../Img/backgroundInfo.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .aboutUs {
+        background: rgba(255, 255, 255, 0.045); /*#625555 #ab530196 */
+        border-radius: 5px;
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+        box-shadow: 2px 2px 10px #625555;
+        margin: 1rem;
+        height: 111vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutUsText {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .aboutUs h2 {
+        font-size: 60px;
+        text-shadow: 1px 1px 5px #625555;
+        color: rgb(59, 50, 40);
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .aboutUs p {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .aboutTitle h3 {
+        font-size: 60px;
+    }
+
+    .aboutLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutLeft p{
+        display: none;
+    }
+
+    .aboutLeft a {
+        width: 19rem;
+        height: 3rem;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .aboutLeft a:hover {
+        border: 1px solid white;
+        background-color: white;
+        color: #ab5301da;
+        transition: all ease .3s;
+        box-shadow: 1px 1px 10px #625555;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    .aboutRight img {
+        margin-bottom: 2rem;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .separator {
+        border-top: 5px solid #ab530180;
+        width: 100%;
+    }
+}

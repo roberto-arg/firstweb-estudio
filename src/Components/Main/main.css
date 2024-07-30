@@ -1,0 +1,36 @@
+.main{
+    height: 100vh;
+    background: url(../../Img/background-home.png);
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .main {
+        height: 100vh;
+        background-position-x: 70%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 800px) {
+    .main {
+        height: 100vh;
+        background-position-x: 70%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        background: url(../../Img/backgroundInfo.png);
+        height: 100vh;
+        background-position: contain;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+

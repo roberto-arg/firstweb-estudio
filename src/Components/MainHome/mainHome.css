@@ -1,0 +1,242 @@
+
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 97vh;
+    gap: 1.5rem;
+    padding: 7rem 1rem;
+}
+
+.home h2 {
+    font-size: 55px;
+    line-height: 4rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.home p {
+    font-size: 55px;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.homeButton {
+    margin: 1rem;
+    margin-top: 20px;
+    margin-left: 30%;
+    height: 50px;
+    width: 40%;
+    border: 1px solid #0436eaa2; /* #ab5301da */
+    border-radius: 3px;
+    background-color: #0436eabe; /* #ab5301da */
+    color: white;
+    box-shadow: 1px 1px 10px #625555;
+    text-decoration: none;
+}
+
+.homeButton:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: #0436ead2;
+    transition: all ease .3s;
+    box-shadow: 1px 1px 10px #625555;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1440px) {
+    .home {
+        padding: 7rem 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-shadow: 1px 1px 5px #625555;
+        height: 97vh;
+    }
+
+    .home h2 {
+        font-size: 60px;
+        line-height: 4rem;
+        text-align: left;
+        padding: 5px;
+        text-shadow: 0px 0px 10px white;
+    }
+
+    .home p {
+        text-align: left;
+        font-size: 60px;
+        text-shadow: 0px 0px 10px white;
+    }
+
+    .homeDesc {
+        background: rgba(255, 255, 255, 0.2);
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        box-shadow: 2px 2px 10px #625555;
+        padding: .5rem
+    }
+
+    .home span {
+        font-size: 32px;
+        line-height: 50px;
+        text-align: left;
+        text-shadow: 0px 0px 10px white;
+        font-weight: 600;
+    }
+
+    .homeButton {
+        margin-left: 0;
+        width: 19rem;
+        padding: 0 0 0 .5rem;
+        height: 70px;
+        text-align: left;
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-shadow: 1px 1px 5px #625555;
+        height: 97vh;
+    }
+
+    .home h2 {
+        font-size: 55px;
+        line-height: 4rem;
+        text-align: left;
+        padding: 5px;
+        text-shadow: 0px 0px 10px white;
+    }
+
+    .home p {
+        text-align: left;
+    }
+
+    .homeDesc {
+        background: rgba(255, 255, 255, 0.2); /*#625555 #ab530196 */
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        box-shadow: 2px 2px 10px #625555;
+        padding: .5rem
+    }
+
+    .home span {
+        font-size: 27px;
+        line-height: 40px;
+        text-align: left;
+        text-shadow: 0px 0px 10px white;
+        font-weight: 600;
+    }
+
+    .homeButton {
+        margin-left: 0;
+        width: 19rem;
+        height: 70px;
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .home {
+        padding: 7rem 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-shadow: 1px 1px 5px #625555;
+        height: 97vh;
+        gap: 0;
+    }
+
+    .home h2 {
+        font-size: 55px;
+        line-height: 4rem;
+        text-align: left;
+        padding: 5px;
+        text-shadow: 0px 0px 10px white;
+    }
+
+    .home p {
+        text-align: left;
+    }
+
+    .home span {
+        font-size: 27px;
+        line-height: 40px;
+        text-align: left;   
+        font-weight: 600;
+    }
+
+    .homeDesc {
+        background: rgba(255, 255, 255, 0.2); /*#625555 #ab530196 */
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        box-shadow: 2px 2px 10px #625555;
+        padding: .5rem
+    }
+
+    .homeButton {
+        margin-left: 0;
+        width: 19rem;
+        height: 70px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 600px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: .1rem;
+        width: 100vw;
+        gap: 5rem;
+    }
+
+    .home h2 {
+        display: flex;
+        font-size: 40px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .home p {
+        font-size: 40px;
+    }
+
+    .home span {
+        display: none;
+    }
+
+    .homeDesc {
+        display: none;
+    }
+
+    .homeButton {
+        width: 19rem;
+        margin-left: 0;
+    }
+
+    .homeButton p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        font-size: 30px;
+    }
+}
